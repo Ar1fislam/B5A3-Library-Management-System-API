@@ -23,7 +23,7 @@ async function server() {
 
     }
     catch (error) {
-        console.error(`server error ${server}`);
+        console.error(`server error ${error}`);
 
     }
 }

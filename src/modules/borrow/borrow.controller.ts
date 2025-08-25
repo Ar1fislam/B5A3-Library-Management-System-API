@@ -68,7 +68,7 @@ export const getBorrowedBooksSummary = async (req: Request, res: Response) => {
             {
                 $unwind: {
                     path: "$bookDetails",
-                    preserveNullAndEmptyArrays: true
+                    // preserveNullAndEmptyArrays: true
                 }
             },
             {
